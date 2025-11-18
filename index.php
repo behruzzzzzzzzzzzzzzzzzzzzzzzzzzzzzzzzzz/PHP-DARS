@@ -1,36 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <?php
-$x = 10;
-$y = 5;
+<?php
 
-$yigindi = $x+ $y;
-$ayirma = $x- $y;
-$kop = $x* $y;
-$bol = $x/ $y;
+$kun = 9;
+
+switch($kun){
+    case 1;
+    echo "dushanba";
+    break;
+
+    case 2;
+    echo "seshanba";
+    break;
+
+    case 3;
+    echo "chorshanba";
+    break;
+
+    case 4;
+    echo "payshanba";
+    break;
+
+    case 5;
+    echo "juma";
+    break;
+
+    case 6;
+    echo "shanba";
+    break;
+
+    case 7;
+    echo "yakshanba";
+    break;
+
+    default:
+    echo "bunday kun yooooooq";
 
 
-  echo "yigindi $yigindi<br>";
-   echo "ayirma $ayirma<br>";
-    echo "kopaytma $kop<br>";
-     echo "bolinma $bol<br>";
 
 
+};
 
-
-
-
-
-
-
-
+  
 
 ?>
-</body>
-</html>
