@@ -1,44 +1,14 @@
 <?php
 
-$kun = 9;
+$sh = 0;
 
-switch($kun){
-    case 1;
-    echo "dushanba";
-    break;
-
-    case 2;
-    echo "seshanba";
-    break;
-
-    case 3;
-    echo "chorshanba";
-    break;
-
-    case 4;
-    echo "payshanba";
-    break;
-
-    case 5;
-    echo "juma";
-    break;
-
-    case 6;
-    echo "shanba";
-    break;
-
-    case 7;
-    echo "yakshanba";
-    break;
-
-    default:
-    echo "bunday kun yooooooq";
+while ($sh<20) {
+    $sh+=2;
+    echo $sh;
+}
+    
 
 
 
-
-};
-
-  
 
 ?>
